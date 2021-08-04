@@ -1,0 +1,138 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+/*--------Navigation------*/
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar-brand img
+{
+	height: 60px;
+	padding-left: 30px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+}
+#nav-bar ul li a:hover
+{
+	color: #007bff!important;
+}
+.navbar 
+{
+	background: #555;
+}
+.navbar-toggler 
+{
+	border: none!important;
+}
+.nav-link 
+{
+	color: #fff!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+/*------About------*/
+
+#about
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555;
+}
+
+.about-content
+{
+	padding-top: 20px;
+}
+.about-content 
+{
+	padding-top: 20px;
+	float: left;	
+}
+
+/*-----Slider-----*/
+
+#gallery 
+{
+	max-width: 1000px;
+	position:relative;
+	margin:auto;
+}
+
+
+/*-----Files------*/
+#files
+{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+	background-size: cover;
+	background-position: center;
+	color: #efefef !important;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#files h1
+{
+	text-align: center;
+	color: #efefef !important;
+	padding-bottom: 10px;
+}
+
+#files h1::after
+{
+	content: '';
+	background: #efefef;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+
+.button{
+	background-color: #efefef;
+	border: solid 1px white;
+	width: 150px;
+	height: 40px;
+	border-radius: 20px;
+}
+
+/*-------Contact------*/
+#contact
+{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+	background-size: cover;
+	background-position: center;
+	color: #efefef !important;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#contact h1
+{
+	text-align: center;
+	color: #efefef !important;
+	padding-bottom: 10px;
+}
+
+#contact h1::after
+{
+	content: '';
+	background: #efefef;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
